@@ -20,6 +20,7 @@ public class ProductDao {
 		ArrayList<Product> list = new ArrayList<Product>();
 		Connection conn = null;
 		Statement stmt = null;
+		PreparedStatement sss = null;
 		ResultSet rset = null;
 
 		String query = "SELECT * FROM PRODUCT";
